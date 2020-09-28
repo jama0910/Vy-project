@@ -1,0 +1,10 @@
+
+.col-md-4 {
+    color: steelblue;
+    font-size: medium;
+    position: absolute;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: auto;
+    text-align: center;
+  }

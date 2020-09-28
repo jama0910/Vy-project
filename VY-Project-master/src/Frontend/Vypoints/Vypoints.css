@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #96858f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background: #fff;
+    height: 650px;
+    position: relative;
+} 
+
+header .content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-text {
+    width: 40%;
+    color: #6d7993
+}
+
+.main-text h1 {
+    opacity: 0;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.main-text p {
+    opacity: 0;
+    margin-bottom: 20px;
+    padding: 30px 0px 0px 0px;
+}
+
+.second-text {
+    width: 100%;
+    color: #6d7993
+}
+
+.second-text h1 {
+    margin-top: 10vh;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-picutre-illustration {
+    position:absolute;
+    max-width:45%;
+    max-height:45%;
+    top:10%;
+    left:50%;
+    overflow:visible;
+    filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;  
+}
+
+.main-picutre-illustration img {
+    position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top: auto;
+    margin-left: 30%;
+}
+
+.button-vy {
+    padding: 20px 0px 0px 0px;
+}
+
+.btn-vy {
+    border: 1px solid #07BA7C;
+    background: #07BA7C;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: -16px;
+    opacity: 0;
+}
+
+.vy-points-section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+
+.vy-points-section {
+    margin-left: 10%;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px){
+    .content {
+        flex-direction: column;
+   
+    }
+
+    .main-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-picutre-illustration img {
+        opacity: 0;
+    }
+
+    .vy-points-section {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .content {
+        width: 100%;
+    }
+}
+
+

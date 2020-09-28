@@ -1,0 +1,127 @@
+body {
+  background: white !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 200;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#root, .auth-wrapper {
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+}
+ 
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+ 
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+ 
+.auth-wrapper .form-control:focus {
+  border-color: #02A593;
+  box-shadow: none;
+}
+ 
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.modal-backdrop
+{
+    opacity:0.9 !important;
+}
+
+.modal-dialog {
+  max-width: 850px;
+  margin: 2rem auto;
+}
+
+#button_login{
+  background-color: #02A593;
+  color: white;
+}
+
+#button_register{
+  background-color:steelblue;
+  color: white;
+  margin-top: 1em;
+}
+
+.login_form{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 985px) {
+  .login_form {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .login_form {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#button_login:hover{
+  background-color:  #017e70;
+  color: white;
+}
+
+#button_register:hover{
+  background-color:#396a93;
+  color: white;
+  margin-top: 1em;
+}
+
+#register{
+  background-color:  #02A593;
+  color: white;
+}
+
+#register:hover{
+  background-color:  #017e70;
+  color: white;
+}
+
+.forgot-password{
+  color: grey;
+  cursor: pointer;
+}
+
+#info_button{
+  cursor: pointer;
+}
+
+
+
+
+

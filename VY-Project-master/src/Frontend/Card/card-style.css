@@ -1,0 +1,118 @@
+body{
+    background: radial-gradient(#e5e5e5, #ffffff, #e5e5e5);
+
+}
+
+.card{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+}
+
+.card-body{
+    padding: 2rem 0 !important;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row{
+    padding-top: 3rem;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+
+#button_info {
+    margin-top: 0.8em;
+    background-color: #00957a;
+    color: white;
+  }
+
+.button_row{
+    width: 100%;
+    text-align: center;
+  }
+
+  #button_info:hover {
+    margin-top: 0.8em;
+    background-color: #017e70;
+    color: white;
+  }
+
+.modal + .modal-backdrop ~ .modal-backdrop {
+    display:none;
+}
+
+.nav-link-maps{
+    color: steelblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#close_button{
+    color: black;
+    margin-left: 10.5rem;
+    margin-top: 0.65rem;
+    background-color: white; 
+}
+
+#close_button:hover{
+    color: black;
+    background-color: whitesmoke; 
+}
+
+#wallet{
+    margin-left: auto;
+    margin-right: 4rem;
+    font-size: 18px;
+}
+
+.map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#button_shop{
+    background-color: #00957a;
+    color: white;
+}
+
+#button_shop:hover{
+    background-color: #017e70;
+    color: white;
+}
+
+#button_cancel{
+    background-color: steelblue;
+    color: white;
+}
+
+#button_cancel:hover{
+    background-color:#396a93;
+    color: white;
+}
+
+
+
+

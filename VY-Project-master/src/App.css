@@ -1,0 +1,14 @@
+.logo {
+    left: 40px;
+}
+
+.ml-auto a:hover {
+    color: #a7b7cd;
+}
+
+.ml-auto{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+}

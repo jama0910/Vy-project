@@ -1,0 +1,44 @@
+.presentation-1 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.introduction-1 {
+    flex: 1;
+}
+
+.design-picutre {
+    flex: 1;
+}
+
+.design-picutre img {
+    height: auto;
+    width: 400px;
+}
+
+.rewardlog-text {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1200px){
+    .presentation-1 {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px 0;
+    }
+
+    .main-picutre {
+        width: 750px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .presentation {
+        width: 95%;
+    }
+}
